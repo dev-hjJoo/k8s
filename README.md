@@ -87,14 +87,14 @@ $ kubectl delete (objects to delete: deployment, pod, rs, ...) --all
 
 
 
-
+<br/><br/>
 ## Kubernettes vs. Docker swarm
 * **[추가 조사 필요]** 단일 Docker daemon으로 구성된 docker swarm과 달리, k8s는 다양한 컨테이너 기반의 컴포넌트로 구성되어 있다.
   * Docker engine -> 기본 단위: Docker container
   * Docker swarm -> 기본 단위: Service (여러 Docker contanier들의 집합)
   * k8s -> 기본 단위: Pod 
 
-
+<br/><br/>
 ## References
 1. Kubernetes official website: https://kubernetes.io/
 2. 시작하세요! 도커/쿠버네티스: https://m.yes24.com/Goods/Detail/84927385
